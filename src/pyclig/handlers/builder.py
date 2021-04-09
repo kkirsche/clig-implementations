@@ -2,6 +2,7 @@ from __future__ import annotations
 from typing import Any, TypedDict
 from sys import stdout, stderr
 from enum import IntEnum
+from pyclig.color.detection import ColorDetection
 
 class HandlerVerbosity(IntEnum):
   Quiet = 0
