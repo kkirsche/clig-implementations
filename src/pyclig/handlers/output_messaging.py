@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from logging import DEBUG, WARNING, Handler, NullHandler, StreamHandler
+from logging import DEBUG, WARNING, NullHandler, StreamHandler
 from os import stderr, stdout
 from typing import Protocol
 
