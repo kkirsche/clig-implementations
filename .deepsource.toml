@@ -16,5 +16,9 @@ dependency_file_paths = ["pyproject.toml", "setup.py"]
   type_checker = "mypy"
 
 [[transformers]]
+name = "isort"
+enabled = true
+
+[[transformers]]
 name = "black"
 enabled = true
