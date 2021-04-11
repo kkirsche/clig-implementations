@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from enum import IntEnum
-from sys import stderr, stdout
 from typing import Any, TypedDict
 
 from pyclig.color.detection import ColorDetection
